@@ -1,0 +1,11 @@
+# Configurações do PyCharm
+.idea/
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+
+# Arquivos de dados grandes
+data/BancoCNPJAgosto.db* 
+# se tiver mais arquivos grandes, adicione aqui:
+# data/outro_arquivo_grande.*
