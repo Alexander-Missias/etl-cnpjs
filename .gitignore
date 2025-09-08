@@ -1,11 +1,55 @@
+# ====================
+# Arquivos grandes de dados
+# ====================
+data/BancoCNPJAgosto.db*
+# Se tiver mais arquivos grandes, adicione aqui:
+# data/outro_arquivo_grande.*
+
+# Manter apenas arquivos .txt dentro da pasta data
+!data/*.txt
+
+# ====================
 # Configurações do PyCharm
+# ====================
 .idea/
 
-# Arquivos Python compilados
+# ====================
+# Python compilados
+# ====================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Arquivos de dados grandes
-data/BancoCNPJAgosto.db* 
-# se tiver mais arquivos grandes, adicione aqui:
-# data/outro_arquivo_grande.*
+# ====================
+# Padrões comuns do GitHub para Python
+# ====================
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.installed.cfg
+*.manifest
+*.spec
+*.log
+*.db
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+.pyre/
+.pytype/
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+cython_debug/
